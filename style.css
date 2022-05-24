@@ -1,0 +1,18 @@
+:root {
+    --playfairFont: 'Playfair Display', serif;
+}
+body {
+    min-height: 100vh;
+    font-family: var(--playfairFont);
+    background-color: lemonchiffon;
+}
+
+header {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+#fiveDays {
+    background-color: white;
+}
