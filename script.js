@@ -59,8 +59,8 @@ function getCurrentApi() {
             $("#uvi").attr("style", "background-color: lightgreen");
           } else if (uvIndex < 8) {
             $("#uvi").attr("style", "background-color: yellow");
-          } else {
-            $("#uvi").attr("style", "background-color: lightred");
+          } else if (uvIndex > 8) {
+            $("#uvi").attr("style", "background-color: red");
           }
           $("#uvi").text(uvIndex);
 
